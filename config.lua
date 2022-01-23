@@ -380,6 +380,68 @@ Config.Products = {
             requiresLicense = true
         },
     },
+    ["blackmarketweapons"] = {
+        [1] = {
+            name = "weapon_knife",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 1,
+        },
+        [2] = {
+            name = "weapon_bat",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 2,
+        },
+        [3] = {
+            name = "weapon_hatchet",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 3,
+        },
+        [4] = {
+            name = "weapon_pistol",
+            price = 2500,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 4,
+            requiresLicense = false
+        },
+        [5] = {
+            name = "weapon_snspistol",
+            price = 1500,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 5,
+            requiresLicense = false
+        },
+        [6] = {
+            name = "weapon_vintagepistol",
+            price = 4000,
+            amount = 5,
+            info = {},
+            type = "item",
+            slot = 6,
+            requiresLicense = false
+        },
+        [7] = {
+            name = "pistol_ammo",
+            price = 250,
+            amount = 250,
+            info = {},
+            type = "item",
+            slot = 7,
+            requiresLicense = false
+        },
+    },
     ["coffeeplace"] = {
         [1] = {
             name = "coffee",
@@ -401,16 +463,361 @@ Config.Products = {
     ["casino"] = {
         [1] = {
             name = 'casinochips',
-            price = 1,
+            price = 100,
             amount = 999999,
             info = {},
             type = 'item',
             slot = 1,
         }
     },
+    ["restaurant"] = {
+        [1] = {
+            name = 'mushrooms',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 1,
+			requiredJob = { "pizza" }
+        },
+        [2] = {
+            name = 'onion',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 2,
+			requiredJob = { "pizza" }
+        },
+        [3] = {
+            name = 'tomatoes',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'yeast',
+            slot = 3,
+			requiredJob = { "pizza" }
+        },
+        [4] = {
+            name = 'salt',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 4,
+			requiredJob = { "pizza" }
+        },
+        [5] = {
+            name = 'flour',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 5,
+			requiredJob = { "pizza" }
+        },
+        [6] = {
+            name = 'basil',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 6,
+			requiredJob = { "pizza" }
+        },
+        [7] = {
+            name = 'garlic',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 7,
+			requiredJob = { "pizza" }
+        },
+        [8] = {
+            name = 'oregano',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 8,
+			requiredJob = { "pizza" }
+        },
+        [9] = {
+            name = 'ham',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 9,
+			requiredJob = { "pizza" }
+        },
+        [10] = {
+            name = 'chili',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 10,
+			requiredJob = { "pizza" }
+        },
+        [11] = {
+            name = 'spicy_salami',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 11,
+			requiredJob = { "pizza" }
+        },
+        [12] = {
+            name = 'prosciutto',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 12,
+			requiredJob = { "pizza" }
+        },
+        [13] = {
+            name = 'artichokes',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 13,
+			requiredJob = { "pizza" }
+        },
+        [14] = {
+            name = 'olives',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 14,
+			requiredJob = { "pizza" }
+        },
+        [15] = {
+            name = 'aubergine',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 15,
+			requiredJob = { "pizza" }
+        },
+        [16] = {
+            name = 'zucchini',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 16,
+			requiredJob = { "pizza" }
+        },
+        [17] = {
+            name = 'beef',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 17,
+			requiredJob = { "pizza" }
+        },
+        [18] = {
+            name = 'capsicum',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 18,
+			requiredJob = { "pizza" }
+        },
+        [19] = {
+            name = 'squid',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 19,
+			requiredJob = { "pizza" }
+        },
+        [20] = {
+            name = 'red_pepper',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 20,
+			requiredJob = { "pizza" }
+        },
+        [21] = {
+            name = 'shrimps',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 21,
+			requiredJob = { "pizza" }
+        },
+        [22] = {
+            name = 'clams',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 22,
+			requiredJob = { "pizza" }
+        },
+        [23] = {
+            name = 'eggs',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 23,
+			requiredJob = { "pizza" }
+        },
+        [24] = {
+            name = 'mascarpone',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 24,
+			requiredJob = { "pizza" }
+        },
+        [25] = {
+            name = 'sugar',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 25,
+			requiredJob = { "pizza" }
+        },
+        [26] = {
+            name = 'cocoa_powder',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 26,
+			requiredJob = { "pizza" }
+        },
+        [27] = {
+            name = 'milk',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 27,
+			requiredJob = { "pizza" }
+        },
+        [28] = {
+            name = 'vanilla',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 28,
+			requiredJob = { "pizza" }
+        },
+        [29] = {
+            name = 'grapes',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 29,
+			requiredJob = { "pizza" }
+        },
+        [30] = {
+            name = 'watermelon',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 30,
+			requiredJob = { "pizza" }
+        },
+        [31] = {
+            name = 'peach',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 31,
+			requiredJob = { "pizza" }
+        },
+        [32] = {
+            name = 'pineapple',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 32,
+			requiredJob = { "pizza" }
+        },
+        [33] = {
+            name = 'cherries',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 33,
+			requiredJob = { "pizza" }
+        },
+        [34] = {
+            name = 'chocolate',
+            price = 5,
+            amount = 500,
+            info = {},
+            type = 'item',
+            slot = 34,
+			requiredJob = { "pizza" }
+        },
+    },
 }
 
 Config.Locations = {
+    ["imports"] = {
+        ["label"] = "Restaurant Ingredient shop",
+        ["type"] = "normal",
+        ["coords"] = {
+            [1] = vector3(1208.2, -3113.77, 5.54)
+        },
+        ["products"] = Config.Products["restaurant"],
+        ["showblip"] = false,
+    },
+    ["beancoffee"] = {
+        ["label"] = "Bean Machine Coffee",
+        ["type"] = "normal",
+        ["coords"] = {
+            [1] = vector3(-633.72, 236.15, 81.88)
+        },
+        ["products"] = Config.Products["coffeeplace"],
+        ["showblip"] = true,
+    },
+    ["casino"] = {
+        ["label"] = "Diamond Casino",
+        ["type"] = "normal",
+        ["coords"] = {
+            [1] = vector3(948.3834, 34.21247, 71.839)
+        },
+        ["products"] = Config.Products["casino"],
+        ["showblip"] = true,
+    },
+    ["ltdgasoline"] = {
+        ["label"] = "LTD Gasoline",
+        ["type"] = "normal",
+        ["coords"] = {
+            [1] = vector3(-48.44, -1757.86, 29.42),
+            [2] = vector3(-47.23, -1756.58, 29.42)
+        },
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+    },
     -- 24/7 Locations
     ["247supermarket"] = {
         ["label"] = "24/7 Supermarket",
@@ -421,6 +828,7 @@ Config.Locations = {
         ["products"] = Config.Products["normal"],
         ["showblip"] = true,
         ["blipsprite"] = 52
+        
     },
     ["247supermarket2"] = {
         ["label"] = "24/7 Supermarket",

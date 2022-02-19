@@ -777,6 +777,7 @@ Config.Products = {
             slot = 34,
 			requiredJob = { "pizza" }
         },
+    },
     ["pops_diner"] = {
         [1] = {
             name = 'tosti',
@@ -786,7 +787,6 @@ Config.Products = {
             type = 'item',
             slot = 1,
         },
-    }
     },
 }
 

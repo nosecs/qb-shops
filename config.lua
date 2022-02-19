@@ -798,7 +798,7 @@ Config.Locations = {
             [1] = vector3(1588.86, 6456.58, 26.01)
         },
         ["products"] = Config.Products["pops_diner"],
-        ["showblip"] = false,
+        ["showblip"] = true,
         ["blipsprite"] = 52
     },
     ["imports"] = {

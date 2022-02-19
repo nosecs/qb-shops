@@ -799,6 +799,7 @@ Config.Locations = {
         },
         ["products"] = Config.Products["pops_diner"],
         ["showblip"] = true,
+        ["blipsprite"] = 52
     },
     ["imports"] = {
         ["label"] = "Restaurant Ingredient shop",

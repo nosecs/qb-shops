@@ -777,10 +777,29 @@ Config.Products = {
             slot = 34,
 			requiredJob = { "pizza" }
         },
+    ["pops_diner"] = {
+        [1] = {
+            name = 'tosti',
+            price = 10,
+            amount = 20,
+            info = {},
+            type = 'item',
+            slot = 1,
+        },
+    }
     },
 }
 
 Config.Locations = {
+    ["pops_diner"] = {
+        ["label"] = "Pop's Diner",
+        ["type"] = "normal",
+        ["coords"] = {
+            [1] = vector3(1588.86, 6456.58, 26.01)
+        },
+        ["products"] = Config.Products["pops_diner"],
+        ["showblip"] = true,
+    },
     ["imports"] = {
         ["label"] = "Restaurant Ingredient shop",
         ["type"] = "normal",

@@ -791,7 +791,7 @@ Config.Products = {
 }
 
 Config.Locations = {
-    ["pops_diner"] = {
+    ["pops"] = {
         ["label"] = "Pop's Diner",
         ["type"] = "normal",
         ["coords"] = {

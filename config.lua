@@ -793,7 +793,6 @@ Config.Products = {
 Config.Locations = {
     ["pops"] = {
         ["label"] = "Pop's Diner",
-        ["type"] = "normal",
         ["coords"] = {
             [1] = vector3(1588.86, 6456.58, 26.01)
         },

@@ -1007,8 +1007,8 @@ Config.Locations = {
             [1] = vector3(122.79, -1037.25, 29.28),
             [2] = vector3(121.48, -1040.93, 29.28)
         },
-        ["products"] = Config.Products["pops_diner"],
-        ["showblip"] = true,
+        ["products"] = Config.Products["beanmachine"],
+        ["showblip"] = false,
     },
     ["pops"] = {
         ["label"] = "Pop's Diner",

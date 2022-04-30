@@ -902,30 +902,6 @@ Config.Products = {
             slot = 2,
         },
         [3] = {
-            name = 'supersalt_chips',
-            price = 5,
-            amount = 20,
-            info = {},
-            type = 'item',
-            slot = 3,
-        },
-        [4] = {
-            name = 'meteorite_chocolate',
-            price = 4,
-            amount = 20,
-            info = {},
-            type = 'item',
-            slot = 4,
-        },
-        [5] = {
-            name = 'ps_qs',
-            price = 4,
-            amount = 20,
-            info = {},
-            type = 'item',
-            slot = 5,
-        },
-        [6] = {
             name = 'ring_donuts',
             price = 4,
             amount = 20,
@@ -933,7 +909,7 @@ Config.Products = {
             type = 'item',
             slot = 5,
         },
-        [7] = {
+        [4] = {
             name = 'water_bottle',
             price = 2,
             amount = 20,
@@ -941,7 +917,7 @@ Config.Products = {
             type = 'item',
             slot = 7,
         },
-        [8] = {
+        [5] = {
             name = 'cappuccino',
             price = 5,
             amount = 20,
@@ -949,7 +925,7 @@ Config.Products = {
             type = 'item',
             slot = 10,
         },
-        [9] = {
+        [6] = {
             name = 'cafe_latte',
             price = 5,
             amount = 20,
@@ -957,7 +933,7 @@ Config.Products = {
             type = 'item',
             slot = 10,
         },
-        [10] = {
+        [7] = {
             name = 'espresso',
             price = 5,
             amount = 20,
@@ -965,7 +941,7 @@ Config.Products = {
             type = 'item',
             slot = 10,
         },
-        [11] = {
+        [8] = {
             name = 'chai_latte',
             price = 5,
             amount = 20,
@@ -973,7 +949,7 @@ Config.Products = {
             type = 'item',
             slot = 10,
         },
-        [12] = {
+        [9] = {
             name = 'hot_chocolate',
             price = 5,
             amount = 20,
@@ -981,7 +957,7 @@ Config.Products = {
             type = 'item',
             slot = 11,
         },
-        [13] = {
+        [10] = {
             name = 'sprunk',
             price = 3,
             amount = 20,
@@ -989,7 +965,7 @@ Config.Products = {
             type = 'item',
             slot = 12,
         },
-        [14] = {
+        [11] = {
             name = 'ecola',
             price = 3,
             amount = 20,
